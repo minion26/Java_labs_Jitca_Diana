@@ -1,1 +1,1 @@
-Jitca Diana 2A4 transferat la 2A3
+:robot: Jitca Diana 2A4 transferat la 2A3 :robot:
