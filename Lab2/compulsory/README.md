@@ -6,10 +6,16 @@ Each road has a type, length and a speed limit. The length of a road should not 
 We consider the problem of determining the "best" route from one location to another.
 
 The main specifications of the application are:
-    1. Create an object-oriented model of the problem. You should have (at least) the following classes: Location, Road.
-    2. The location and road types will be implemented as enums.
-    3. Each class should have appropriate constructors, getters and setters.
-    4. Use the IDE features for code generation, such as generating getters and setters.
-    5. The toString method form the Object class must be properly overridden for all the classes.
-    6. Use the IDE features for code generation, for example (in NetBeans) press Alt+Ins or invoke the context menu, select "Insert Code" and then "toString()" (or simply start typing "toString" and then press Ctrl+Space).
-    7. Create and print on the screen various objects of the two classes.
+    :smile: Create an object-oriented model of the problem. You should have (at least) the following classes: Location, Road.
+    
+    :smile: The location and road types will be implemented as enums.
+    
+    :smile: Each class should have appropriate constructors, getters and setters.
+    
+    :smile: Use the IDE features for code generation, such as generating getters and setters.
+    
+    :smile: The toString method form the Object class must be properly overridden for all the classes.
+    
+    :smile: Use the IDE features for code generation, for example (in NetBeans) press Alt+Ins or invoke the context menu, select "Insert Code" and then "toString()" (or simply start typing "toString" and then press Ctrl+Space).
+    
+    :smile: Create and print on the screen various objects of the two classes.
