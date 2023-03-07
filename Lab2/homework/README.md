@@ -5,7 +5,7 @@ Each location has a name, type and x, y coordinates (assume that the locations a
 Each road has a type, length and a speed limit. The length of a road should not be less than the euclidian distance between the location coordinates.
 We consider the problem of determining the "best" route from one location to another.
 
-The main specifications of the application are:
+The main specifications of the application are :grin: :
 
 1. Create a class that describes an instance of the problem.
 
