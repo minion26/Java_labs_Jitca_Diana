@@ -5,17 +5,18 @@ Each location has a name, type and x, y coordinates (assume that the locations a
 Each road has a type, length and a speed limit. The length of a road should not be less than the euclidian distance between the location coordinates.
 We consider the problem of determining the "best" route from one location to another.
 
-The main specifications of the application are:
-    :smile: Create an object-oriented model of the problem. You should have (at least) the following classes: Location, Road.
+The main specifications of the application are :smile: :
+
+    1. Create an object-oriented model of the problem. You should have (at least) the following classes: Location, Road.
     
-    :smile: The location and road types will be implemented as enums.
+    2. The location and road types will be implemented as enums.
     
-    :smile: Each class should have appropriate constructors, getters and setters.
+    2. Each class should have appropriate constructors, getters and setters.
     
-    :smile: Use the IDE features for code generation, such as generating getters and setters.
+    3. Use the IDE features for code generation, such as generating getters and setters.
     
-    :smile: The toString method form the Object class must be properly overridden for all the classes.
+    4. The toString method form the Object class must be properly overridden for all the classes.
     
-    :smile: Use the IDE features for code generation, for example (in NetBeans) press Alt+Ins or invoke the context menu, select "Insert Code" and then "toString()" (or simply start typing "toString" and then press Ctrl+Space).
+    5. Use the IDE features for code generation, for example (in NetBeans) press Alt+Ins or invoke the context menu, select "Insert Code" and then "toString()" (or simply start typing "toString" and then press Ctrl+Space).
     
-    :smile: Create and print on the screen various objects of the two classes.
+    6. Create and print on the screen various objects of the two classes.
