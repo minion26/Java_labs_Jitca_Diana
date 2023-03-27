@@ -1,0 +1,11 @@
+org\example\ListException.class
+org\example\GenericCommand.class
+org\example\ViewCommand.class
+org\example\ListCommand.class
+org\example\Main.class
+org\example\Commands.class
+org\example\Catalog.class
+org\example\Document.class
+org\example\InvalidCatalogException.class
+org\example\LoadCommand.class
+org\example\ReportCommand.class

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+
+<h1>$message</h1>
+<h3>$message2</h3>
+
+<table>
+<tr>
+    <th>Name</th>
+    <th>Path</th>
+    <th>Id</th>
+    <th>Tags</th>
+</tr>
+#foreach ($doc in $catalog)
+    <tr>
+        <td>$doc.name</td>
+        <td>$doc.path</td>
+        <td>$doc.ID</td>
+        <td>$doc.tags</td>
+    </tr>
+#end
+</table>
+</body>
+</html>
