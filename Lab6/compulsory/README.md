@@ -13,3 +13,4 @@ Create the following components :polar_bear: :
   3. A canvas (drawing panel) for drawing the board. Draw the dots and the lines according to the values specified in the config panel. This panel must be placed in        the center part of the frame.
   4. A control panel for managing the game. This panel will contain the buttons: Load, Save, Exit ,etc. and it will be placed at the bottom part of the frame.
 
+<img width="611" alt="image" src="https://user-images.githubusercontent.com/65017893/228250180-0597326f-069b-4d81-be72-391bb3a07f29.png">
