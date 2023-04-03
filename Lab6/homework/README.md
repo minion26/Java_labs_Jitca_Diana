@@ -10,5 +10,11 @@ In order to create a graphical user interface for the game, you may use either S
   
   2. Implement the logic of the game. Use a mouse listener in order to select the line which must be colored, either by selecting the dots or the line itself. Validate the moves, according to the game rules. Determine the winner of the game.
   
-Export the current image of the game board into a PNG file.
-Use object serialization in order to save and restore the current status of the game.
+  3. Export the current image of the game board into a PNG file.
+  
+  4. Use object serialization in order to save and restore the current status of the game.
+
+<img width="597" alt="image" src="https://user-images.githubusercontent.com/65017893/229618827-61385df4-1b9f-4735-838b-66c27b7b8d7f.png">
+
+![image](https://user-images.githubusercontent.com/65017893/229618951-469a28b0-83aa-46b0-bba9-190ab1b03fc5.png)
+
