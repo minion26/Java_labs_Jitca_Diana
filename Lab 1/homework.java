@@ -9,7 +9,7 @@ public class homework {
             int n = Integer.parseInt(args[0]);
             long startTime = 0;
             if (n >= 30000){
-                startTime = System.currentTimeMillis();;
+                startTime = System.currentTimeMillis();
             }
 
             //matrix of n*n
