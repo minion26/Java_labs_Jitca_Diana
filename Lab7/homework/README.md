@@ -11,6 +11,7 @@ The main specifications of the application are :dove: : :dove:
     2. The commands must be given using the keyboard.
     
     3. Design an algorithm such that each robots will try to explore the map in a systematic fashion, ensuring the termination of the exploration process.
-Implement a timekeeper thread that runs concurrently with the player threads, as a daemon. This thread will display the running time of the exploration and it will stop it exceeds a certain time limit.
+    
+    4. Implement a timekeeper thread that runs concurrently with the player threads, as a daemon. This thread will display the running time of the exploration and it will stop it exceeds a certain time limit.
 
     4. At the end of the exploration, determine how many tokens each robot has placed in the matrix.
