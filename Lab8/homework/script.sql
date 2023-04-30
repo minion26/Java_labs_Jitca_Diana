@@ -1,22 +1,22 @@
-DROP TABLE IF EXISTS artists, genres, albums;
+drop table if exists albums;
+drop table if exists artist;
+drop table if exists genre;
 
-CREATE TABLE artists (
-    id SERIAL PRIMARY KEY ,
-    name TEXT NOT NULL
+create  table if not exists genre(
+  id serial  PRIMARY KEY,
+  name VARCHAR(255) UNIQUE  NULL
 );
 
-CREATE TABLE genres (
-    id SERIAL PRIMARY KEY,
-    name TEXT NOT NULL
+
+CREATE TABLE IF NOT EXISTS artist(
+  id serial  PRIMARY KEY,
+  name VARCHAR(255) UNIQUE NOT NULL
 );
 
-CREATE TABLE albums (
-    id SERIAL PRIMARY KEY ,
-    release_year INTEGER NOT NULL,
-    artist_id INTEGER NOT NULL,
-    genre_id  INTEGER NOT NULL,
-    title TEXT NOT NULL,
-    FOREIGN KEY (artist_id) REFERENCES artists(id),
-    FOREIGN KEY (genre_id) REFERENCES genres(id)
+CREATE TABLE IF NOT EXISTS  albums (
+  id serial  PRIMARY KEY,
+  release_year VARCHAR(255) NOT NULL,
+  title VARCHAR(255) UNIQUE NOT NULL,
+  artistID INT NOT NULL,
+  FOREIGN KEY (artistID) REFERENCES artist(id)
 );
-
