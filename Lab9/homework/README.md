@@ -1,4 +1,6 @@
 Persistence :space_invader:
+
+
 Continue the application from lab 8, creating an object-oriented model and using JPA (Java Persistence API) in order to communicate with the relational database.
 
 The main specifications of the application are:
