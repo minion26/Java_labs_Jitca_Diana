@@ -1,0 +1,10 @@
+mai 09, 2023 12:50:58 A.M. main.java.com.example.Main main
+INFO: Log created
+mai 09, 2023 12:50:59 A.M. main.java.com.example.Main main
+INFO: Artist Hugor of the Hill created
+mai 09, 2023 12:50:59 A.M. main.java.com.example.Main main
+INFO: Album created
+mai 09, 2023 12:50:59 A.M. main.java.com.example.Main main
+INFO: Genre Non Music created
+mai 09, 2023 12:50:59 A.M. main.java.com.example.Main main
+INFO: Album created

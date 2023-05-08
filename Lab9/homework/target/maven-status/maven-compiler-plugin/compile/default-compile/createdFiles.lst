@@ -1,0 +1,9 @@
+main\java\com\example\MyEntityManagerFactory.class
+main\java\com\example\AlbumsRepo.class
+main\java\com\example\Main.class
+main\java\com\example\GenreEntity.class
+main\java\com\example\GenreRepo.class
+main\java\com\example\AbstractRepository.class
+main\java\com\example\ArtistEntity.class
+main\java\com\example\AlbumsEntity.class
+main\java\com\example\ArtistRepo.class
