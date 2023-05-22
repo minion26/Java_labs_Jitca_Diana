@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Client</title>
+</head>
+<body>
+<h1>Client Side</h1>
+<div th:each="game : ${team1}" >
+    <div class="pokemon-container">
+        <p th:text="${game.name}" > </p>
+        <p th:text="${game.date}"></p>
+        <p th:text="${game.location}"></p>
+        <br>
+    </div>
+</div>
+</body>
+</html>
